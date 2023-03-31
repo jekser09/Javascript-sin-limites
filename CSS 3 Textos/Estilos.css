@@ -1,0 +1,45 @@
+body {
+    background-color: #eee;
+}
+a{
+    color: hotpink;
+    background-color: #f00;
+    border: solid 1px #d00;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 6px;
+    
+}
+a:link {
+    color: coral;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+    background-color: #f55;
+}|
+a:active {
+    color: black;
+}
+
+/*
+p {
+    font-family: "Times New Roman";
+    font-weight: 400;
+    font-size: 30px;
+    font-style: oblique;
+    color: blue;
+    text-align: justify;
+    text-indent: 15px;
+    line-height: 1.7;
+    text-shadow: 4px 3px 2px rgba(0,0,0,0.455);
+}
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    word-spacing: 8px;
+}*/

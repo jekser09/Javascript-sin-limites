@@ -1,0 +1,27 @@
+body {
+    background-color: #eee;
+}
+
+/*Para usar la propiedad transform es necesario que sea un elemnto
+tipo block*/
+.box{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+    /*transform: rotate(-45deg);*/
+    /*transform: translate(50px,10px);*/
+    /*transform: skewX(-5deg);*/
+    /*transform: skewY(-25deg);*/
+    transform: skew(25deg,10deg);
+}
+/*
+.box:hover{
+    transform: scale(1.05,1.05);
+    transform: scaleY(1.05,1.05);
+    transform: scaleX(1.05,1.05);
+}
+*/

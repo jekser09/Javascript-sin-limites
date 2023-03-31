@@ -1,0 +1,28 @@
+body {
+    background-color: #E9E6E5;
+}
+#Cajap {
+    border: outset;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 8px;
+}
+.bordear {
+    border-top: solid 1px  #DCD7D6;
+}
+#botones {
+    padding: 12px;
+}
+#boton1 {
+    background-color: #23B3F2;
+    border: hidden;
+    color: white;
+    padding: 8px;
+}
+#boton2 {
+    background-color: #AAABAB;
+    border: hidden;
+    color: white;
+    padding: 8px;
+}

@@ -1,0 +1,11 @@
+body {
+    background-color: #eee;
+}
+/*
+p {
+    display: inline;
+}*/
+
+span {
+    display: block;
+}
