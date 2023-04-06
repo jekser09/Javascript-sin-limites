@@ -1,0 +1,11 @@
+body {
+    background-color: #eee;
+    width: 200px;
+}
+.flex{
+    display: flex;
+    /*flex-direction: row-reverse;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;*/
+    flex-flow: row wrap;
+}
