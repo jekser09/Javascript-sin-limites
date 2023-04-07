@@ -1,6 +1,5 @@
 body {
     background-color: #eee;
-    width: 210px;
 }
 .flex{
     display: flex;
@@ -11,8 +10,14 @@ body {
     background-color: red;
 }
 .primero{
-    order: 1;
+    /*flex-grow: 1;
+    flex-basis: 120px;*/
+    flex: 1 80px;
+}
+.segundo{
+    flex-grow: 1;
 }
 .tercero{
-    order: -1;
+    flex-grow: 2;
+    align-self: stretch;
 }
